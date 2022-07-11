@@ -148,43 +148,35 @@ section.cards{padding: 30px 0}
 
 
 /* FOTER 1 FOOTER2 1 FOOOTER 1FOOOTER1*//* FOTER 1 FOOTER2 1 FOOOTER 1 FOOOTER1*//* FOOTER1 FOOTER1 1FOOOTER 1 FOOOTER1*/
-.footer1{background-color: #f0f0f0;;padding: 20px 0;color: white;height: 600px;}
+.footer1{background-color: #f0f0f0;;padding: 20px 0;color: white;height:100%;}
 
 
 .saibamais1{color: dimgray; text-align: center; line-height: 25px; margin-top: 10px;}
 
-section.circulos{padding-bottom: 3rem;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -15px;
-  margin-right: -15px;
-  text-align: center;}
-  
+section.diferenciais{padding: 30px 0;text-align: center;}
 
-.circulo-solo{
-  color: black;
-  font-size: 100px;
-  background-color: #f9f9f9;
-  border: 15px #f9f9f9 solid;
-  border-radius: 103px;
-  float: left;
-  margin: 0px 0px 0px 20%;
-  padding: 0px 25px;
-}
-  
+#fa{margin: 30px;}
 
-  .circulo-solo2{
-    color: black;
-    font-size: 100px;
-    border: 15px #f9f9f9 solid;
-    background-color: #f9f9f9;
-    border-radius: 103px;
-    float: left;
-    margin: 0px 0% 0px 20%;
-    padding: 0px 50px;
-}
+.line-text{position: relative;display: inline-block ;}
 
-.description1{text-align:left; color: black; margin: 3% 0px 0px 16%;}
+.line-text div{position: absolute; left: 0; top: 0 ; width: 200px;;height: 3px; background:#52aaa7;}
+
+.line-text h2{ font-weight: normal; font-size: 40px;color:#52aaa7 }
+
+
+
+.icone-diferenciais{margin-top: 33px;}
+
+
+.box-icone-single{float: left;width: 33.3%;padding: 0 10px;}
+
+.box-icone-single h2 {color: black;font-size: 40px;}
+
+
+.box-icone-single p{   
+   color: rgba(19, 19, 19, 0.6);
+  line-height: 28px;
+  font-size: 17px;    margin-top: 15px;}
 
 #b1{margin-right: 15%;}
 
@@ -265,6 +257,7 @@ img.logo{
      
      .rodape2{width: 100%;text-align: center; margin-top: 20px;}
 
+     .box-icone-single{float: left;width:100%;padding: 0 10px;}
 
 }
 
@@ -314,4 +307,6 @@ img.logo{
  
         .ladoDireito{display: block; margin-top :20px;position: unset;    margin: 20px;}
         .rodape2{width: 100%;text-align: center; margin-top: 30px;}
+
+        .box-icone-single{float: left;width:100%;padding: 0 10px;}
 }
